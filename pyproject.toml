@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "paperseek"
+version = "0.1.0"
+description = ""
+authors = ["Mohammad Saknini <Mohammadsakhnini99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.8"
+numpy = "2.0.2"
+torch = {version = "^2.5.1+cu124", source = "pytorch-gpu-src"}
+torchvision = {version = "^0.20.1+cu124", source = "pytorch-gpu-src"}
+torchaudio = {version = "^2.5.1+cu124", source = "pytorch-gpu-src"}
+transformers = "4.45.2"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+fastparquet = "^2024.11.0"
+pyarrow = "^18.1.0"
+setuptools = "^75.6.0"
+wheel = "^0.45.1"
+dask = {extras = ["distributed"], version = "^2024.12.1"}
+bokeh = "^3.6.2"
+msgspec = "^0.18.6"
+joblib = "^1.4.2"
+humanize = "^4.11.0"
+iprogress = "^0.4"
+ipywidgets = "^8.1.5"
+jupyter = "^1.1.1"
+plotly = "^5.24.1"
+scikit-learn = "^1.6.0"
+datasets = "^3.2.0"
+einops = "^0.8.0"
+accelerate = "^1.2.1"
+bitsandbytes = "^0.45.0"
+sentence-transformers = "^3.3.1"
+openpyxl = "^3.1.5"
+omegaconf = "^2.3.0"
+adapters = "^1.0.1"
+rank-bm25 = "^0.2.2"
+openai = "^1.65.2"
+pymilvus = "^2.5.2"
+docling = "^2.14.0"
+polars = "^1.26.0"
+matplotlib = "^3.10.0"
+qdrant-client = {extras = ["fastembed"], version = "^1.12.2"}
+pyalex = "^0.15.1"
+tenacity = "^9.0.0"
+synergy-dataset = "^1.2"
+ojson = "^0.1.0"
+pydantic = "^2.10.6"
+polars-u64-idx = {extras = ["pyarrow"], version = "^1.26.0"}
+rapidgzip = "^0.14.3"
+speedict = "^0.3.12"
+fastexcel = "^0.13.0"
+catboost = "^1.2.8"
+lightgbm = "^4.6.0"
+asreview = "^1.6.6"
+asreview-insights = "^1.5.1"
+scikit-learn-intelex = "^2025.5.0"
+
+
+[[tool.poetry.source]]
+name = "pytorch-gpu-src"
+url = "https://download.pytorch.org/whl/cu124"
+priority = "explicit"
+
+
+[tool.poetry.group.dev.dependencies]
+memory-profiler = "^0.61.0"
+line-profiler = "^4.2.0"
+kaleido = "0.1.0post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

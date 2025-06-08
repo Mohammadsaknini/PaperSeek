@@ -1,0 +1,471 @@
+{
+    "Software Process Line": {
+        "query": "(\"process adaptation\" OR \"processes adaptation\" OR \"customization of processes\" OR \"software processes customization\" OR \"software process customization\" OR \"customizing software processes\" OR \"process definition\" OR \"processes definition\" OR \"process composition\" OR \"compose processes\" OR \"processes composition\" OR \"process tailoring\" OR \"processes tailoring\" OR \"tailing of processes\" OR \"process development\" OR \"processes development\" OR \"process engineering\" OR \"processes engineering\" OR \"process design\" OR \"software process modelling\" OR \"software process modelling\" OR \"process implementation\" OR \"managing processes\") AND (\"family of software process\" OR \"family of software processes\" OR \"families of software process\" OR \"families of software processes\" OR \"software process line\" OR \"software process lines\" OR \"software processes line\" OR \"software processes lines\" OR \"process-line\" OR \"process-lines\" OR \"processes-line\" OR \"processes-lines\" OR \"software process family\" OR \"software processes family\" OR \"software process families\" OR \"software processes families\" OR \"process-family\" OR \"processes-family\" OR \"process-families\" OR \"processes-families\" OR \"software process variability\" OR \"software process variabilities\" OR \"software processes variability\" OR \"software processes variabilities\" OR \"variabilities in software processes\" OR \"process domain engineering\" OR \"processes domain engineering\" OR \"process feature\" OR \"process features\" OR \"processes feature\" OR \"processes features\" OR \"process asset reuse\")",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Which SPrL approaches have been proposed and how do they support software process reuse?",
+                "sub": [
+                    "What are the overview of the area and the main characteristics of the proposed approach?",
+                    "Does the approach apply software reuse concept as process variability treatment and/or a componentization strategy?",
+                    "How was the described approach evaluated?"
+                ]
+            }
+        }
+    },
+    "Data Stream Processing Latency": {
+        "query": "(stream processing OR \"continuous query\" OR \"stream-based system\" OR \"data stream system\" OR \"streaming system\" OR \"complex event processing\") AND (\"adapt\" OR \"reconfigur\" ) AND (\"latency\" OR \"response time\")",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "In studies analyzing adaptation in data stream processing from a latency perspective, which enactment approaches exist?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "What techniques are used to realize which enactment?",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "What problems are addressed by the publications?",
+                "sub": []
+            },
+            "RQ4": {
+                "main": "What are the (measurable) goals aimed at in the publications?",
+                "sub": []
+            },
+            "RQ5": {
+                "main": "How are these approaches evaluated in the publications?",
+                "sub": [
+                    "Which metrics are used for the evaluation of these enactment approaches?",
+                    "Which parameters are varied / studied in the evaluation of the enacment approaches?"
+                ]
+            }
+        }
+    },
+    "Business Process Meta Models": {
+        "query": "(\"metamodel\" OR \"meta-model\") AND (\"business process\" OR \"process model\" OR \"petrinet\" OR \"petri-net\" OR \"workflow\" OR \"Declare\")",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "What types of business process meta-models are being proposed in the literature and how can we characterize and categorize them?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "What are the business process elements recurring across business process meta-models?",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "What is the role of a business process meta-model?",
+                "sub": []
+            },
+            "RQ4": {
+                "main": "Are the proposed business process meta-models evaluated? How?",
+                "sub": []
+            }
+        }
+    },
+    "Multicore Performance Prediction": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Which modeling approaches for performance prediction in the context of different parallel programming paradigms exist and which pragmatism do they have?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "Which concepts exist to predict the performance of multicore architectures?",
+                "sub": []
+            }
+        }
+    },
+    "Cloud Migration": {
+        "query": "((migration OR evolution OR adaptation OR transformation OR modernization OR reengineering OR integration OR adoption OR switching) AND (monolithic OR legacy OR existing OR preexisting OR on-premise) AND (system OR software OR application) AND (cloud AND (software OR application OR architecture OR infrastructure OR environment)))",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "What are the main practical motivations behind legacy migrations to the cloud?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "What are the different type of migration and main migration tasks involved?",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "What are the existing tasks, methods, and techniques to enable migration of legacy software to the cloud-based enviroment?",
+                "sub": []
+            },
+            "RQ4": {
+                "main": "What are the existing research issues and what should be the future research agenda in legacy to cloud migration?",
+                "sub": []
+            }
+        }
+    },
+    "Software Fault Prediction Metrics": {
+        "query": "software AND (metric OR measurement) AND (fault OR (\"defect\" OR \"defective\" OR \"defects\" OR \"defected\" OR \"defectos\" OR \"defectiveness\" OR \"defectors\" OR \"defection\") OR quality OR error-prone) AND ((\"predictive\" OR \"predict\" OR \"prediction\" OR \"predicted\" OR \"predicting\" OR \"predictions\" OR \"predictor\" OR \"predicts\" OR \"predictable\" OR \"predictability\") OR (\"prone\" OR \"stroke-prone\" OR \"proneness\" OR \"pronephric\" OR \"proneural\" OR \"pronephros\" OR \"pronethalol\") OR probability OR (\"assessed\" OR \"assessment\" OR \"assess\" OR \"assessing\" OR \"assesses\" OR \"assessable\") OR (\"detection\" OR \"detected\" OR \"detect\" OR \"detectable\" OR \"detecting\" OR \"detector\" OR \"detectors\" OR \"detects\" OR \"detectability\") OR (\"estimated\" OR \"estimation\" OR \"estimating\" OR \"estimate\" OR \"estimates\" OR \"estimator\" OR \"estimators\") OR (\"classification\"))",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Which software metrics for fault prediction exist in literature?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "What kind of empirical validation was performed on the metrics found in RQ1?",
+                "sub": [
+                    "Are size metrics useful for fault prediction?",
+                    "Are complexity metrics useful for fault prediction? Do they have additional benefits after being adjusted for size?",
+                    "Are OO metrics useful for fault prediction? Do they have additional benefits after being adjusted for size?",
+                    "Are process metrics superior to traditional and OO metrics? Is the answer dependent upon the life cycle context?",
+                    "Are there metrics reported to be significantly superior in software fault prediction; and if so, which ones?",
+                    "Are there metrics reported to be inferior in software fault prediction; and if so, which ones?"
+                ]
+            },
+            "RQ3": {
+                "main": "What data sets are used for evaluating metrics?",
+                "sub": [
+                    "Are the data sets publicly available?",
+                    "What are the size of the data sets?",
+                    "What software programming languages are used to implement software from which the data sets are extracted?"
+                ]
+            },
+            "RQ4": {
+                "main": "What are the software development life cycle (SDLC) phases in which the data sets are gathered?",
+                "sub": [
+                    "Does the SDLC phase influence the selection of softwaremetrics?",
+                    "Does software fault prediction accuracy differ across variousSDLC phases?"
+                ]
+            },
+            "RQ5": {
+                "main": "What is the context in which the metrics were evaluated?",
+                "sub": []
+            }
+        }
+    },
+    "Software Defect Prediction": {
+        "query": "(software OR (\"application\" OR \"applications\") OR systems ) AND ((\"fault\" OR \"faulting\" OR \"faults\" OR \"faulty\" OR \"faulted\" OR \"faultless\" OR \"faultlines\") OR (\"defect\" OR \"defective\" OR \"defects\" OR \"defected\" OR \"defectos\" OR \"defectiveness\" OR \"defectors\" OR \"defection\") OR quality OR error-prone) AND ((\"predictive\" OR \"predict\" OR \"prediction\" OR \"predicted\" OR \"predicting\" OR \"predictions\" OR \"predictor\" OR \"predicts\" OR \"predictable\" OR \"predictability\") OR (\"prone\" OR \"stroke-prone\" OR \"proneness\" OR \"pronephric\" OR \"proneural\" OR \"pronephros\" OR \"pronethalol\") OR probability OR (\"assessed\" OR \"assessment\" OR \"assess\" OR \"assessing\" OR \"assesses\" OR \"assessable\") OR (\"detection\" OR \"detected\" OR \"detect\" OR \"detectable\" OR \"detecting\" OR \"detector\" OR \"detectors\" OR \"detects\" OR \"detectability\") OR (\"estimated\" OR \"estimation\" OR \"estimating\" OR \"estimate\" OR \"estimates\" OR \"estimator\" OR \"estimators\") OR (\"classification\"))",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Which journal is the most significant software defect prediction journal?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "Who are the most active and influential researchers in the software defect prediction field?What kind of research topicsare selected by researchers in the software defect prediction field?",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "What kind of research topics are selected by researchers in the software defect prediction field?",
+                "sub": []
+            },
+            "RQ4": {
+                "main": "What kind of datasets are the most used for software defect prediction?",
+                "sub": []
+            },
+            "RQ5": {
+                "main": "What kind of methods are used for software defect prediction?",
+                "sub": []
+            },
+            "RQ6": {
+                "main": "What kind of methods are used most often for software defect prediction?",
+                "sub": []
+            },
+            "RQ7": {
+                "main": "Which method performs best when used for software defect prediction?",
+                "sub": []
+            },
+            "RQ8": {
+                "main": "What kind of method improvements are proposed for software defect prediction?",
+                "sub": []
+            },
+            "RQ9": {
+                "main": "What kind of frameworks are proposed for software defect prediction?",
+                "sub": []
+            }
+        }
+    },
+    "Effectiveness of Common Therapies for Wilson disease": {
+        "query": "(\"Wilson disease\" OR \"wilsons disease\" OR \"Wilson's disease\" OR \"wilson syndrome\" OR (\"wilson\" AND (\"degeneration\" OR \"degenerate\" OR \"degenerative\" OR \"degenerating\" OR \"degenerated\" OR \"degenerates\" OR \"degenerativen\" OR \"degenerativa\")) OR \"morbus Wilson\" OR \"Kinnier-Wilson\" OR \"Kinnier-Wilsons\" OR \"Kinnier-Wilson's\" OR Pseudosclerosis OR Westphal-Strumpell OR \"Copper Storage Disease\" OR \"Cerebral Pseudosclerosis\" OR \"Cerebral Pseudoscleroses\" OR hld OR ((Hepatolenticular OR Hepatocerebral OR Neurohepatic OR (Progressive and Lenticular)) and ((\"degeneration\" OR \"degenerate\" OR \"degenerative\" OR \"degenerating\" OR \"degenerated\" OR \"degenerates\" OR \"degenerativen\" OR \"degenerativa\") OR Syndrome))) OR ((3 AND mercaptovaline) OR (3 AND dimethylcysteine) OR \"adaleen\" OR \"alpha amino beta methyl beta mercaptobutyric acid\" OR \"alpha penicillamin\" OR \"artamin\" OR \"atamir\" OR \"beta mercaptovaline\" OR \"beta dimethylcysteamine\" OR \"beta dimethylcysteine\" OR \"byanodine\" OR \"cuprenil\" OR \"cuprim\" OR \"cuprimin\" OR \"cuprimine\" OR \"cuprimune\" OR \"cupripen\" OR (3 AND \"d mercaptovaline\") OR \"d penicillamin\" OR \"d penicillamine\" OR \"d penicillamine hydrochloride\" OR \"d penicillinamine hydrochloride\" OR \"d-penamine\" OR \"d-penil\" OR \"delta penicillamine\" OR \"depen\" OR \"dextro penicillamine\" OR \"dextropenicillamine\" OR \"dimethyl cysteine\" OR \"dimethylcysteine\" OR \"distamine\" OR \"dl penicillamine\" OR \"gerodyl\" OR \"kelatin\" OR \"kelatine\" OR \"l penicillamine\" OR \"mercaptyl\" OR \"metalcaptase\" OR \"pemine\" OR \"pendramine\" OR \"penicilamina\" OR \"penicillame\" OR \"penicillamin\" OR \"penicillamin d\" OR \"penicillamine d\" OR \"penicillamine hydrochloride\" OR \"penicillinamine\" OR \"racemic penicillamine\" OR \"Penicillaminate\" OR \"sufortanon\" OR \"trolovol\")",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the comparative effectiveness and safety of common therapies, including D-penicillamine, zinc salts, trientine, and tetrathiomolybdate, for the treatment of Wilson disease?",
+                "sub": []
+            }
+        }
+    },
+    "Cerebral Small Vessel Disease and the Risk of Dementia": {
+        "query": "(\"Dementia\" OR (\"dementias\" OR \"dementia\" OR \"demented\" OR \"dementsprechend\" OR \"dementing\" OR \"dementie\" OR \"demential\") OR (\"alzheimers\" OR \"alzheimer\" OR \"alz\") AND (\"magnetic resonance imaging\" OR \"computed tomography\" OR \"imaging\" OR (\"image\" OR \"images\" OR \"imagery\" OR \"imaged\" OR \"imager\" OR \"imagem\" OR \"imagens\" OR \"imagerie\")) AND (\"white matter\" OR (\"infarction\" OR \"infarcted\" OR \"infarct\") OR (\"microbleeds\" OR \"microbleed\" OR \"microbleeding\") OR \"small vessel\"))",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the association between cerebral small vessel disease markers and the risk of dementia or Alzheimer\u2019s disease?",
+                "sub": []
+            }
+        }
+    },
+    "Psychological Theories of Depressive Relapse and Recurrence": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "What psychological theories and factors predict depressive relapse in individuals with a history of major depressive disorder?",
+                "sub": []
+            }
+        }
+    },
+    "Comparative Efficacy and Safety of Long-Acting Oral Opioids for Chronic Non-Cancer Pain": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the comparative efficacy of different long-acting opioids in reducing pain and improving functional outcomes in adult patients being treated for chronic non-cancer pain?",
+                "sub": [
+                    "In head-to-head comparisons, has one or more long-acting opioid been shown to be superior to other long-acting opioids in reducing pain and improving functional outcomes when used for treatment of adults with chronic non-cancer pain?",
+                    "In trials comparing long-acting opioids to other types of drugs or to placebo, is there a pattern to suggest that one long-acting opioid is more effective than another?",
+                    "Have long-acting opioids been shown to be superior to short-acting opioids in reducing pain and im proving functional outcomes when used for treatment of adults with chronic non-cancer pain?"
+                ]
+            },
+            "RQ2": {
+                "main": "What are the comparative incidence and nature of adverse effects (including addiction and abuse) of long-acting opioid medications in adult patients being treated for chronic non-cancer pain?",
+                "sub": [
+                    "In head-to-head comparisons, has one or more long-acting opioid been shown to be associated with fewer adverse events compared to other long-acting opioids when used for treatment of adults with chronic non-cancer pain?",
+                    "In trials comparing long-acting opioids to other types of drugs or to placebo, is there a pattern to suggest that one long-acting opioid is associ ated with fewer adverse events than another?",
+                    "Have long-acting opioids been shown to have fewer adverse events than short-acting opioids when used for treatment of adults with chronic non-cancer pain?"
+                ]
+            },
+            "RQ3": {
+                "main": "Are there subpopulations of patients (specifically by race, age, sex, or type of pain) with chronic non-cancer pain for which one long-acting opioid is more effective or associated with fewer adverse effects?",
+                "sub": []
+            }
+        }
+    },
+    "Efficacy and Safety of Skeletal Muscle Relaxants for Spasticity and Musculoskeletal Conditions": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the comparative efficacy of different muscle relaxants?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "What is the comparative safety of different muscle relaxants?",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "Are there subpopulations of patients for which one muscle relaxant is more effective or associated with fewer adverse effects?",
+                "sub": []
+            }
+        }
+    },
+    "Pharmacokinetics and Associated Efficacy of Emicizumab in Humans": {
+        "query": "(\"emicizumab\" OR \"emicizumab\" OR \"emicizumab kxwh\" OR \"hemlibra\" OR \"ace910\" OR \"ace-910\" OR \"ace910\" OR \"Rg 6013\" OR \"Rg 6013\" OR \"Ro5534262\" OR \"Ro5534262\") AND (\"pharmacokinetics\" OR \"pharmacokinetic parameters\" OR \"biological model\" OR \"dose response\" OR \"pharmacokinetics\" OR \"biological model\" OR \"dose response\" OR \"pk\" OR \"plasma level\" OR \"drug kinetics\" OR \"half-life\" OR \"half life\" OR \"adme\" OR \"ladmer\" OR \"admet\" OR \"distributed\" OR \"distribution\" OR \"administration\" OR \"absorption\" OR \"elimination\" OR \"eliminated\" OR \"metabolism\" OR \"plasma concentration\" OR \"clearance\" OR \"route of administration\" OR \"administration route\" OR \"auc\" OR \"area under curve\" OR \"area under curves\" OR \"bioavailability\" OR \"bioavailable\" OR \"biological availability\" OR \"renal excretion\" OR \"renal elimination\")",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What are the pharmacokinetics and associated efficacy outcomes of emicizumab in humans with hemophilia A, and how do factors such as body weight and dosing influence its therapeutic effectiveness?",
+                "sub": []
+            }
+        }
+    },
+    "Fault Prediction Performance in Software Engineering": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "How does context affect fault prediciton?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "Which independent variables should be included in fault prediction models",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "Which modeling techinques perform best when used in fault prediction",
+                "sub": []
+            }
+        }
+    },
+    "Mesenchymal Stem Cell Effect in the Management of Osteoarthritis of the Knee": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Does the Source of Mesenchymal Stem Cell Have an Effect in the Management of Osteoarthritis of the Knee?",
+                "sub": []
+            }
+        }
+    },
+    "Sleep and Microdialysis, Review of Histamine and Several Amino Acids": {
+        "query": "",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "How do histamine and amino acid neurotransmitters, including glutamate, GABA, and others, in the prefrontal cortex and other brain regions vary during sleep, sleep deprivation, and recovery, and what are the implications for their roles in sleep regulation?",
+                "sub": []
+            }
+        }
+    },
+    "Comparing Experimental Design of Animal and Human Methotrexate Efficacy Studies for Rheumatoid Arthritis": {
+        "query": "\"Arthritis\" OR \"Rheumatoid\" OR (\"Rheumatoid\"  AND ((\"nodule\" OR \"nodules\" OR \"nodular\" OR \"nodulation\") OR (\"vasculitis\" OR \"vasculitides\" OR \"vasculitic\"))) OR \"Arthritis  Experimental\" OR (RA AND (model OR models)) OR \"rheumatic arthritis\" OR ((\"Collagen‐Induced Arthritides\" OR \"Collagen‐Induced Arthritis\" OR (\"Arthritides\"  AND \"collagen\") OR (\"arthritis\" AND (\"collagen\" OR (\"Collagen\" AND \"antibody\" AND \"induced\" AND \"arthritis\") OR \"collagens\" OR (\"adjuvant\" OR \"adjuvants\" OR \"adjuvantive\") OR \"experimental\")) OR \"Arthritides\" OR \"Collagen type II\" OR (\"Type II\"  AND (\"Collagen\" OR \"Procollagen\" OR \"Col2a1\" OR \"chondrocalcin\")) OR \"CIA\" OR \"Proteoglycans\" OR \"Proteoglycans\" OR \"Proteoglycan\" OR \"PGIA\" OR \"HSPG\" OR (\"Proteoheparan Sulfate\" OR \"Proteoheparan Sulfates\" OR \"Proteoheparan Sulfated\" OR \"Proteoheparan Sulfation\") OR (\"glypican\" OR \"glypicans\") OR (\"syndecan\" OR \"syndecans\") OR \"CD138 Antigens\" OR \"CD138 Antigen\" OR \"Fibroglycan\" OR \"Ryudocan\" OR \"Amphiglycan\" OR \"Proteochondroitin Sulfate\" OR \"Proteochondroitin Sulfates\" OR \"Aggrecans\" OR \"Aggrecan\" OR \"Versicans\" OR \"Versican\" OR \"Biglycan\" OR \"Decorin\" OR \"DSPG‐II\" OR \"Hyalectins\" OR \"Brevican\" OR \"Neurocan\" OR \"Lectins C‐Type\" OR \"Nerve Tissue Proteins\" OR \"Citrulline\" OR (\"citrulline\" OR \"citrullinated\" OR \"citrullination\") OR \"Freund's Adjuvant\" OR \"adjuvant\" OR (\"Freund\" OR \"Freunds\" OR \"Freundian\")) OR \"Mycobacterium tuberculosis\" OR \"Mycobacterium tuberculosis\" OR \"Mycobacterium butyricum\" OR \"Antigen induced arthritis\" OR \"AIA\" OR (\"Streptococcal\" AND \"induced\" AND \"arthritis\") OR \"SCW‐A\" OR \"CAIA\" OR \"K/BxN model\" OR \"G6PI‐induced arthritis\" OR \"SKG\" OR \"TNF transgenic\" OR \"gp130 arthritis model\" OR \"IL‐1 transgenic\" OR \"pristane induced arthritis\" OR \"PIA\" OR \"oil induced arthritis\" OR \"OIA\") AND (\"RA\" OR \"rheumatism\")",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Are the experimental designs of the pre-clinical animal studies comparable to those of the clinical trials?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "Are the improvements (i.e., reductions in swelling, pain and bone and cartilage damage) found in RA animal models comparable with the improvements found in patients",
+                "sub": []
+            }
+        }
+    },
+    "Patients Retransitioning from Biosimilar TNF\u03b1 Inhibitor to the Corresponding Originator After Initial Transitioning to the Biosimilar": {
+        "query": "((\"biosimilars\" OR \"biosimilar\" OR \"biosimilarity\" OR \"biosimilares\") OR (\"follow on\" AND (\"biological\" OR \"biologically\" OR \"biologic\")) OR (\"subsequent entry\" AND (\"biological\" OR \"biologically\" OR \"biologic\")) OR \"Biosimilar Pharmaceuticals\") AND ((\"drug\" AND (\"substitution\" OR \"substitutions\")) OR (\"switching\" OR \"switch\" OR \"switches\" OR \"switched\" OR \"switchgrass\" OR \"switchover\" OR \"switchgear\" OR \"switchable\") OR (\"transition\" OR \"transitions\" OR \"transitional\" OR \"transitioning\" OR \"transitioned\") OR \"Drug Substitution\")",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the cumulative incidence of patients who retransition from a biosimilar TNF-\u03b1 inhibitor to the corresponding originator, and what patient, disease, treatment, and implementation strategy factors are associated with retransitioning?",
+                "sub": []
+            }
+        }
+    },
+    "The methodological rigour of systematic reviews in environmental health": {
+        "query": "\"systematic review\" AND ((\"flavour\" OR \"flavours\" OR \"flavoured\" OR \"flavourings\" OR \"flavouring\" OR \"flavourzyme\") OR (\"flavor\" OR \"flavoring\" OR \"flavored\" OR \"flavors\" OR \"off-flavors\" OR \"flavorful\") OR (\"preservatives\" OR \"preservative\" OR \"preservativo\" OR \"preservativos\") OR (\"pesticide\" OR \"pesticides\") OR (\"additive\" OR \"additives\" OR \"additively\") OR \"electromagnetic\" OR (\"radiation\" OR \"radiative\" OR \"radiating\" OR \"radiata\" OR \"radiated\" OR \"radiatum\" OR \"radiatively\" OR \"radiator\" OR \"radiationless\" OR \"radiate\" OR \"radiators\") OR (\"endocrine-disrupting\" OR \"disruptors\" OR \"disruptor\" OR \"disruption\" OR \"disrupting\" OR \"disrupters\" OR \"endocrine\") OR (\"chemical\" OR \"chemicals\" OR \"chemically\") OR (\"occupation\" OR \"occupational\" OR \"occupationally\" OR \"occupations\") OR \"noise\" OR (\"particulate\" OR \"particulates\") OR (\"environment\" OR \"environmental\" OR \"environments\" OR \"environmentally\") OR (\"toxicity\" OR \"toxic\" OR \"toxicology\" OR \"toxicological\" OR \"toxicants\" OR \"toxicosis\" OR \"toxicant\" OR \"toxicologic\") OR (\"hazardous\" OR \"hazards\" OR \"hazard\") OR (\"pollutants\" OR \"polluted\" OR \"pollution\" OR \"pollutant\" OR \"polluting\" OR \"pollute\") OR (\"exposure\" OR \"exposed\" OR \"expose\" OR \"exposing\" OR \"exposition\" OR \"exposes\" OR \"expository\" OR \"exposures\" OR \"exposición\" OR \"exposé\" OR \"exposição\" OR \"exposées\") OR (\"smoking\" OR \"smokers\" OR \"smoked\" OR \"smokeless\" OR \"smoke\" OR \"smoky\" OR \"non-smoker\" OR \"smokefree\") OR (\"temperature\" OR \"temperatures\" OR \"temperate\" OR \"temperatur\" OR \"temperaturen\"))",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the methodological rigor of systematic reviews in environmental health, and how do factors such as referencing a pre-published protocol, use of reporting checklists, and journal impact factor influence this rigor?",
+                "sub": []
+            }
+        }
+    },
+    "Poor nutritional condition promotes high-risk behaviours": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Do nutritional-condition manipulation treatments have an overall effect on mean risk-taking behaviour?",
+                "sub": []
+            },
+            "RQ2": {
+                "main": "Is the effect of nutritional condition on mean risk-taking behaviour context dependent?",
+                "sub": []
+            },
+            "RQ3": {
+                "main": "Does nutritional condition have differential effects on mean risk-taking behaviour in males and females?",
+                "sub": []
+            },
+            "RQ4": {
+                "main": "Does nutritional condition at different life stages have differential effects on mean risk-taking behaviour?",
+                "sub": []
+            },
+            "RQ5": {
+                "main": "Does the life history of a species determine how nutritional condition affects risk-taking behaviour",
+                "sub": []
+            },
+            "RQ6": {
+                "main": "Does nutritional condition affect the amount of total variation in risk-taking behaviour within high and low-condition treatment groups",
+                "sub": []
+            }
+        }
+    },
+    "Postmenopausal Hormone Replacement Therapy": {
+        "query": "",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What are the benefits and risks of postmenopausal hormone replacement therapy (HRT) in terms of treating menopause symptoms and preventing long-term health conditions, and how do these factors influence current recommendations for its use?",
+                "sub": []
+            }
+        }
+    },
+    "Specialized psychotherapies for adults with borderline personality disorder": {
+        "query": "\"Psychotherapy\" OR \"Adlerian Psychotherapy\" OR \"Adolescent Psychotherapy\" OR \"Analytical Psychotherapy\" OR \"Autogenic Training\" OR \"Behavior Therapy\" OR \"Brief Psychotherapy\" OR \"Brief Relational Therapy\" OR \"Child Psychotherapy\" OR \"Client Centered Therapy\" OR \"Cognitive Behavior Therapy\" OR \"Group Psychotherapy\" OR \"Encounter Group Therapy\" OR \"Therapeutic Community\" OR \"Humanistic Psychotherapy\" OR \"Client Centered Therapy\" OR \"Hypnotherapy\" OR \"Age Regression (Hypnotic)\" OR \"Ericksonian Psychotherapy\" OR \"Psychoanalysis\" OR \"Adlerian Psychotherapy\" OR \"Brief Relational Therapy\" OR \"Dream Analysis\" OR \"Self Analysis\" OR \"Psychotherapeutic Counseling\" OR \"Family Therapy\" OR \"Cognitive Therapy\" OR \"Cotherapy\" OR \"Couples Therapy\" OR \"Educational Therapy\" OR \"Holistic Health\" OR \"Online Therapy\" OR \"Paradoxical Techniques\" OR \"Pastoral Counseling\" OR \"Phototherapy\" OR \"Psychotherapeutic Processes\" OR \"Countertransference\" OR \"Insight (Psychotherapeutic Process)\" OR \"Negative Therapeutic Reaction\" OR \"Psychotherapeutic Breakthrough\" OR \"Psychotherapeutic Resistance\" OR \"Psychotherapeutic Transference\" OR \"Therapeutic Alliance\" OR \"Psychotherapeutic Techniques\" OR \"Active Listening\" OR \"Animal Assisted Therapy\" OR \"Autogenic Training\" OR \"Brief Relational Therapy\" OR \"Cotherapy\" OR \"Dream Analysis\" OR \"Empty Chair Technique\" OR \"Ericksonian Psychotherapy\" OR \"Guided Imagery\" OR \"Mirroring\" OR \"Morita Therapy\" OR \"Motivational Interviewing\" OR \"Mutual Storytelling Technique\" OR \"Network Therapy\" OR \"Paradoxical Techniques\" OR \"Psychodrama\" OR \"Recreation Therapy\" OR \"Spontaneous Remission\" OR \"Theoretical Orientation\" OR \"Dialectical Behavior Therapy\" OR (\"Transference Focused Psychotherapy\" OR \"Schema-Focused Therapy\" OR \"Dialectical Behavior Therapy\" OR \"Mentalisation Based Treatment\" OR \"Mentalization Based Treatment\" OR psychotherapy) OR (\"Transference Focused Psychotherapy\" OR \"Schema-Focused Therapy\" OR \"Dialectical Behavior Therapy\" OR \"Mentalisation Based Treatment\" OR \"Mentalization Based Treatment\" OR psychotherapy) OR  (\"Transference Focused Psychotherapy\" OR \"Schema-Focused Therapy\" OR \"Dialectical Behavior Therapy\" OR \"Mentalisation Based Treatment\" OR \"Mentalization Based Treatment\" OR psychotherapy) AND (\"Borderline Personality Disorder\" OR \"Borderline States\" OR \"borderline\" OR \"borderline\" OR \"borderline\")",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the effectiveness of specialized psychotherapies (dialectical behavior therapy, mentalization-based treatment, transference-focused therapy, and schema therapy) compared to non-specialized psychotherapies (e.g., protocolized psychological treatment, general psychiatric management) in treating borderline personality disorder (BPD)?",
+                "sub": []
+            }
+        }
+    },
+    "The rodent object-in-context task": {
+        "query": "((\"Memory Episodic\" OR \"Memory Long-Term\" OR \"Memory Short-Term\" OR \"Spatial Memory\" OR \"Discrimination Learning\" OR \"Spatial Learning\" OR \"Episodic memory\" OR \"Memories\" OR \"Episodic like memory\" OR \"long term memory\" OR \"short term memory\" OR \"spatial memory\" OR \"working memory\" OR \"discrimination learning\" OR \"spatial learning\" OR \"memory\" OR \"recognition memory\" OR \"Association learning\" OR \"Discrimination Learning\" OR \"Learning\" OR \"Learn\" OR \"Learning\" OR \"Learning task\" OR \"association learning\" OR \"discrimination learning\" OR \"discrimination task\") AND (\"rodentia\" OR \"mice\" OR \"mus\" OR \"mouse\" OR \"murine\" OR \"woodmouse\" OR \"rats\" OR \"rat\" OR \"murinae\" OR \"muridae\" OR \"cottonrat\" OR \"cottonrats\" OR \"hamster\" OR \"hamsters\" OR \"cricetinae\" OR \"rodentia\" OR \"rodent\" OR \"rodents\") AND (\"OIC\" OR \"object in context object context\" OR \"object place context\" OR \"object background\" OR \"context mismatch\" OR \"object-in-context\" OR \"context item\" OR \"context recognition\" OR ((\"object\" OR \"item\") AND context AND (\"task\" OR \"test\" OR \"recognition\" OR \"discrimination\")))) NOT (\"meta-analys*\" OR \"review\" OR \"systematic\")",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What are the critical variables influencing the outcome of the rodent object-in-context task, and how do factors such as sex, testbox size, delay between learning trials, and other variables affect the task's results?",
+                "sub": []
+            }
+        }
+    },
+    "Bayesian Versus Frequentist Estimation for Structural Equation Models in Small Sample Contexts": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "How do Bayesian and frequentist estimation methods compare in the performance of structural equation models (SEMs) with small sample sizes, and what factors influence their effectiveness",
+                "sub": []
+            }
+        }
+    },
+    "Bayesian PTSD-Trajectory Analysis with Informed Priors": {
+        "query": "(trajectories OR \"latent growth\" OR \"latent factors\" OR cluster OR \"cluster analysis\" OR \"latent class analysis\" OR \"latent growth mixture modelling\" OR \"mixed linear models\" OR \"latent profile\" OR mixture OR typologies OR profile OR \"discriminant analysis\") AND (\"traumatic stress\" OR \"posttraumatic stress\" OR \"posttraumatic stress\" OR \"stress disorder\" OR PTSD)",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "How can Bayesian statistics be used to incorporate background knowledge into latent growth mixture modeling for analyzing posttraumatic stress disorder (PTSD) trajectories, particularly in situations with limited data?",
+                "sub": []
+            }
+        }
+    },
+    "Cross-sectional relation of long-term glucocorticoids in hair with anthropometric measurements and their possible determinants": {
+        "query": "",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the relationship between long-term glucocorticoids in hair (HairGC) and anthropometric measures such as BMI, waist circumference (WC), and waist-hip ratio (WHR), and how clinically relevant are these associations?",
+                "sub": []
+            }
+        }
+    },
+    "The Role Older Adults with Cancer Favour in Treatment Decision Making": {
+        "query": "",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "How has the role preference of adults with cancer in treatment decision-making (TDM) evolved over time, and is there a difference in role preference between older and younger adults?",
+                "sub": []
+            }
+        }
+    },
+    "Long-term Outcomes of Cognitive Behavioral Therapy for Anxiety-Related Disorders": {
+        "query": "((anxiety AND (\"disorder\" OR \"disorders\" OR \"disordered\")) OR \"panic\" OR (\"phobic\" OR \"phobias\" OR \"phobia\" OR \"phobics\" OR \"phobie\" OR \"phobien\" OR \"phobius\" OR \"phobifera\" OR \"ice-phobicity\" OR \"phobischen\") OR (\"agoraphobia\" OR \"agoraphobic\" OR \"agoraphobics\" OR \"agoraphobie\" OR \"agoraphobischen\") OR (\"acrophobia\" OR \"acrophobic\") OR (\"emetophobia\" OR \"emetophobic\") OR (\"cynophobia\") OR (\"trypanophobia\") OR (\"claustrophobia\" OR \"claustrophobic\") OR ((\"obsession\" OR \"obsessive\" OR \"obsessional\" OR \"obsessive-compulsive\" OR \"obsessions\" OR \"obsessed\" OR \"obsessively\" OR \"obsessiveness\" OR \"obsessionality\" OR \"obsessies\") AND (\"compulsory\" OR \"compulsive\" OR \"obsessive-compulsive\" OR \"compulsion\" OR \"compulsions\" OR \"compulsively\" OR \"compulsorily\" OR \"compulsivity\" OR \"compulsator\" OR \"obsessive-compulsiveness\" OR \"compulsão\")) OR \"OCD\" OR (\"posttraumatic\" OR \"posttraumatische\" OR \"posttraumatischen\" OR \"posttrauma\" OR \"posttraumatischer\")  OR \"post-traumaic\" OR \"traumatic stress\" OR \"generalized anxiety\" OR \"generalized anxiety\" OR \"social anxiety\") AND (\"Controlled trial\" OR \"Clinical trial\" OR \"RCT\")",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What are the long-term outcomes of Cognitive Behavioral Therapy (CBT) for anxiety-related disorders, including generalized anxiety disorder, panic disorder, social anxiety disorder, specific phobia, PTSD, and OCD?",
+                "sub": []
+            }
+        }
+    },
+    "Early-Life Exposure to Bisphenol A and Obesity-Related Outcomes in Rodents": {
+        "query": "",
+        "generated": false,
+        "RQs": {
+            "RQ1": {
+                "main": "Does early-life exposure to BPA affect the obesity-related outcomes body weight, fat (pad) weight, and circulating and tissue levels of triglycerides, free fatty acids (FFA), and leptin?",
+                "sub": []
+            }
+        }
+    },
+    "Coronary heart disease, heart failure, and the risk of dementia": {
+        "query": "(dementia OR (\"alzheimers\" OR \"alzheimer\")) AND ((((\"myocardium\" OR \"myocardial\" OR \"myocarditis\" OR \"myocarditic\" OR \"myocardique\" OR \"myocarde\" OR \"myocardin\") OR heart) AND (\"infarction\" OR \"infarcted\" OR \"infarct\")) OR \"coronary heart disease\" OR \"coronary artery disease\" OR \"acute coronary syndrome\" OR \"angina pectoris\" OR \"myocardial ischemia\" OR \"coronary artery obstruction\" OR \"coronary artery atherosclerosis\" OR \"coronary artery thrombosis\" OR \"heart failure\" OR \"cardiac failure\" OR \"cardiac function\" OR \"heart function\" OR cardiomyopathy OR cardiomegaly)",
+        "generated": true,
+        "RQs": {
+            "RQ1": {
+                "main": "What is the association between coronary heart disease (CHD), heart failure (HF), and the risk of dementia?",
+                "sub": []
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "quarto": false,
+        "python": true,
+        "javascript": false,
+        "html": true,
+        "json": false,
+        "shellscript": true
+    },
+}
