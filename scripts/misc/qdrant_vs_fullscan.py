@@ -56,7 +56,7 @@ def compare_results():
     print("Average Intersection:", df["Intersection"].mean())
 
 if __name__ == "__main__":
-    run_qdrant()
-    full_scan()
+    # run_qdrant()
+    # full_scan()
     compare_results()
         
